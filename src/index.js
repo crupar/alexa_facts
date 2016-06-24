@@ -27,19 +27,21 @@ var APP_ID = undefined; //OPTIONAL: replace with "amzn1.echo-sdk-ams.app.[your-u
  * Array containing space facts.
  */
 var FACTS = [
-    "A year on Mercury is just 88 days long.",
-    "Despite being farther from the Sun, Venus experiences higher temperatures than Mercury.",
-    "Venus rotates counter-clockwise, possibly because of a collision in the past with an asteroid.",
-    "On Mars, the Sun appears about half the size as it does on Earth.",
-    "Earth is the only planet not named after a god.",
-    "Jupiter has the shortest day of all the planets.",
-    "The Milky Way galaxy will collide with the Andromeda Galaxy in about 5 billion years.",
-    "The Sun contains 99.86% of the mass in the Solar System.",
-    "The Sun is an almost perfect sphere.",
-    "A total solar eclipse can happen once every 1 to 2 years. This makes them a rare event.",
-    "Saturn radiates two and a half times more energy into space than it receives from the sun.",
-    "The temperature inside the Sun can reach 15 million degrees Celsius.",
-    "The Moon is moving approximately 3.8 cm away from our planet every year."
+    "Your nose and ears continue growing throughout your entire life.  Your eyes, however, are the same size from birth to death.",
+    "Your salivary glands produce about one point five litres of saliva each day.",
+    "A human baby has around three hundred bones where an human adult has two hundred and six bones.",
+    "Your tongue has eight muscles.",
+    "Your left lung is divided into two lobes where your right lung is divided into three lobes.",
+    "An adult breathes about 11,000 litres of air every day.  That's about the size of the drum on a cement mixer truck!",
+    "Your blood makes a round trip through your body about once every minute!",
+    "In your body bacteria cells outnumber your human cells.",
+    "Fingernails grow nearly four times faster than toenails.",
+    "The surface area of an adult's lungs is equal to a tennis court.",
+    "Sneezes regularly exceed one hundred miles per hour or one hundred and sixty kilometers per hour.",
+    "By the age of sixty most people will have lost about half of their taste buds.",
+    "Eighty of your hairs are likely to fall out today.",
+    "Every person has a unique tongue print.",
+    "Half a liter of water per day is lost through breathing."
 ];
 
 /**
@@ -119,4 +121,3 @@ exports.handler = function (event, context) {
     var fact = new Fact();
     fact.execute(event, context);
 };
-
